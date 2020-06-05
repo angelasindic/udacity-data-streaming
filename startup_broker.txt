@@ -1,0 +1,16 @@
+# start zookeeper first
+
+cd $KAFKA_HOME
+
+bin/zookeeper-server-start.sh config/zookeeper.properties
+# start kafka borker
+cd $KAFKA_HOME
+
+bin/kafka-server-start.sh config/server.properties
+
+#Output
+#INFO Awaiting socket connections on 0.0.0.0:9092
+
+# start schema registry
+cd $KAFKA_HOME
+bin/connect-standalone.sh  config/connect-standalone.properties

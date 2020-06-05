@@ -1,0 +1,9 @@
+confluent_kafka
+# generate test data
+faker
+fastavro
+requests
+avro
+confluent_kafka[avro]
+
+

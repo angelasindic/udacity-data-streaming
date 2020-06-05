@@ -1,0 +1,4 @@
+ {"type": "record",
+ "name": "click_event",
+ "namespace": "com.udacity.lesson3.exercise2",
+ "fields": [{"name": "email", "type": "string"},{"name": "timestamp", "type": "string"},{"name": "uri", "type": "string"},{"name": "number", "type": "int"}]}
